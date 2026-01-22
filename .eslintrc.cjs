@@ -92,8 +92,9 @@ module.exports = {
       },
     ],
 
-    /* ===== Duplicadas ===== */
-    'no-unused-vars': 'off',
+    /* ===== Regras ===== */
+    'no-unused-vars': 'on',
+    'no-useless-constructor': 'off',
   },
 
 overrides: [
